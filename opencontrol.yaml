@@ -1,0 +1,11 @@
+schema_version: "1.0.0"
+name: ICD-503 Certifications
+metadata:
+  description: "ICD-503 specific certification templates"
+  maintainers:
+    - Mark Shoger (mshoger@redhat.com)
+    - Shawn Wells (shawn@redhat.com)
+certifications:
+  - ./ICD503-low.yaml
+  - ./ICD503-moderate.yaml
+  - ./ICD503-high.yaml
