@@ -1,14 +1,12 @@
-# Based off the ICD-503 Low-Low-Low Security Controls
-# Current as of 10-May-2018
-# Last (re)validation: 11-NOV-2017
+# Based on the ICD-503 Low-Low-Low Security Controls
+# Current as of 15-June-2018
+# Maintained by Mark Shoger (mshoger@redhat.com)
 # https://www.dni.gov/files/documents/ICD/ICD_503.pdf
 name: ICD503-Low
 standards:
   NIST-800-53:
     AC-1: {}
     AC-2: {}
-    AC-3: {}
-    AC-7: {}
     AC-8: {}
     AC-14: {}
     AC-17: {}
@@ -16,6 +14,16 @@ standards:
     AC-19: {}
     AC-20: {}
     AC-22: {}
+    AP-1: {}
+    AP-2: {}
+    AR-1: {}
+    AR-2: {}
+    AR-3: {}
+    AR-4: {}
+    AR-5: {}
+    AR-6: {}
+    AR-7: {}
+    AR-8: {}
     AT-1: {}
     AT-2: {}
     AT-3: {}
@@ -32,7 +40,6 @@ standards:
     AU-12: {}
     CA-1: {}
     CA-2: {}
-    CA-2 (1): {}
     CA-3: {}
     CA-5: {}
     CA-6: {}
@@ -52,6 +59,17 @@ standards:
     CP-4: {}
     CP-9: {}
     CP-10: {}
+    DI-1: {}
+    DI-1 (1): {}
+    DI-1 (2): {}
+    DI-2: {}
+    DI-2 (1): {}
+    DM-1: {}
+    DM-1 (1): {}
+    DM-2: {}
+    DM-2 (1): {}
+    DM-3: {}
+    DM-3 (1): {}
     IA-1: {}
     IA-2: {}
     IA-2 (1): {}
@@ -67,6 +85,12 @@ standards:
     IA-8 (2): {}
     IA-8 (3): {}
     IA-8 (4): {}
+    IP-1: {}
+    IP-1 (1): {}
+    IP-2: {}
+    IP-3: {}
+    IP-4: {}
+    IP-4 (1): {}
     IR-1: {}
     IR-2: {}
     IR-4: {}
@@ -95,6 +119,22 @@ standards:
     PL-1: {}
     PL-2: {}
     PL-4: {}
+    PM-1: {}
+    PM-2: {}
+    PM-3: {}
+    PM-4: {}
+    PM-5: {}
+    PM-6: {}
+    PM-7: {}
+    PM-8: {}
+    PM-9: {}
+    PM-10: {}
+    PM-11: {}
+    PM-12: {}
+    PM-13: {}
+    PM-14: {}
+    PM-15: {}
+    PM-16: {}
     PS-1: {}
     PS-2: {}
     PS-3: {}
@@ -111,6 +151,7 @@ standards:
     SA-2: {}
     SA-3: {}
     SA-4: {}
+    SA-4 (10): {}
     SA-5: {}
     SA-9: {}
     SC-1: {}
@@ -123,10 +164,18 @@ standards:
     SC-21: {}
     SC-22: {}
     SC-39: {}
+    SE-1: {}
+    SE-2: {}
     SI-1: {}
     SI-2: {}
     SI-3: {}
     SI-4: {}
     SI-5: {}
     SI-12: {}
-    SI-16: {}
+    TR-1: {}
+    TR-1 (1): {}
+    TR-2: {}
+    TR-2 (1): {}
+    TR-3: {}
+    UL-1: {}
+    UL-2: {}
